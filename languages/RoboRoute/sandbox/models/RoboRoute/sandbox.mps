@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="53cf3991-5e0c-480e-8691-5523d5520502" name="RoboRoute" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports />
   <registry>
@@ -23,7 +24,6 @@
         <child id="2397178398409515005" name="boundary" index="1ld2bK" />
         <child id="2397178398405163330" name="commands" index="1lqohf" />
       </concept>
-      <concept id="2397178398404599110" name="RoboRoute.structure.Turn" flags="ng" index="1loi1b" />
       <concept id="2397178398405388441" name="RoboRoute.structure.Forward" flags="ng" index="1lthmk">
         <property id="2397178398405388566" name="length" index="1lthgr" />
       </concept>
@@ -36,7 +36,6 @@
   </registry>
   <node concept="1llh3O" id="254vgPOuWWJ">
     <property role="TrG5h" value="RoboRoute" />
-    <node concept="1loi1b" id="254vgPOv5Ts" role="1lqohf" />
     <node concept="1llh33" id="254vgPOuWWK" role="1ld2bK">
       <property role="1llh3l" value="10" />
       <property role="1llh3n" value="10" />
@@ -47,7 +46,7 @@
       <property role="1lnfEk" value="15" />
       <property role="1lnfEJ" value="15" />
     </node>
-    <node concept="1lthmk" id="254vgPOv5Gi" role="1lqohf">
+    <node concept="1lthmk" id="254vgPOwZwm" role="1lqohf">
       <property role="1lthgr" value="50" />
     </node>
   </node>

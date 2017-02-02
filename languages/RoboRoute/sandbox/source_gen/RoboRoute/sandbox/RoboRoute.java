@@ -32,7 +32,6 @@ public class RoboRoute extends JFrame {
 
       graphics.drawRect(10, 10, 500, 500);
       graphics.drawOval(15, 15, 4, 4);
-      direction = changeDirection(0);
       currentStartPoint = moveForward(currentStartPoint, direction, 50, graphics);
     }
   };

@@ -69,7 +69,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116de1L, "sizeY"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398406548033(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74316899L, "RoboRoute.structure.Forward")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74316899L, 0x21447d0d74316916L, "length"));
+    return SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74316899L, 0x21447d0d74316916L, "length"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398406534398(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger_def(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74255d46L, "RoboRoute.structure.Turn")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74255d46L, 0x21447d0d74316958L, "direction"), "0");

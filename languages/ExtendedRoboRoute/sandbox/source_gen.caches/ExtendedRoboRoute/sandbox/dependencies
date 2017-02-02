@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="ExtendedRoboRoute.sandbox.NewRoboRoute" file="NewRoboRoute.java">
+  <dependency className="ExtendedRoboRoute.sandbox.NewRoute" file="NewRoute.java">
     <classNode dependClassName="java.awt.Color" />
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Graphics" />

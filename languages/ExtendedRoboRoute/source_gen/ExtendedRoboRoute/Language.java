@@ -41,7 +41,7 @@ public class Language extends LanguageRuntime {
   }
   @Override
   protected String[] getExtendedLanguageIDs() {
-    return new String[]{"RoboRoute"};
+    return new String[]{"jetbrains.mps.baseLanguage", "RoboRoute"};
   }
   @Override
   public Collection<TemplateModule> getGenerators() {

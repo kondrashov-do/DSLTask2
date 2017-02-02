@@ -9,14 +9,14 @@ import java.awt.Point;
 import java.awt.Color;
 import java.awt.Dimension;
 
-public class NewRoboRoute extends JFrame {
+public class NewRoute extends JFrame {
   private static final int CANVAS_SIZE = 1000;
 
   private static final int DEFAULT_DIRECTION = 0;
   private int boundaryMinX = 10;
   private int boundaryMinY = 10;
-  private int boundaryMaxX = 600;
-  private int boundaryMaxY = 600;
+  private int boundaryMaxX = 500;
+  private int boundaryMaxY = 500;
 
   private JPanel panel = new JPanel() {
     @Override
@@ -26,13 +26,17 @@ public class NewRoboRoute extends JFrame {
       int direction = DEFAULT_DIRECTION;
 
       boundaryMinX = 10;
-      boundaryMaxX = 600;
+      boundaryMaxX = 500;
       boundaryMinY = 10;
-      boundaryMaxY = 600;
+      boundaryMaxY = 500;
 
-      graphics.drawRect(10, 10, 600, 600);
+      graphics.drawRect(10, 10, 500, 500);
       graphics.drawOval(15, 15, 4, 4);
+      currentStartPoint = moveForward(currentStartPoint, direction, 500, graphics);
+      direction = changeDirection(3);
+      currentStartPoint = moveForward(currentStartPoint, direction, 50, graphics);
       direction = changeDirection(0);
+      currentStartPoint = moveForward(currentStartPoint, direction, 150, graphics);
       currentStartPoint = moveForward(currentStartPoint, direction, 50, graphics);
     }
   };
@@ -77,7 +81,7 @@ public class NewRoboRoute extends JFrame {
   }
 
   public static void main(String[] args) {
-    NewRoboRoute canvas = new NewRoboRoute();
+    NewRoute canvas = new NewRoute();
     canvas.initialize();
   }
 
@@ -85,7 +89,7 @@ public class NewRoboRoute extends JFrame {
   }
 
   public void initialize() {
-    this.setTitle("NewRoboRoute");
+    this.setTitle("NewRoute");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.add(panel);
     panel.setPreferredSize(new Dimension(CANVAS_SIZE, CANVAS_SIZE));

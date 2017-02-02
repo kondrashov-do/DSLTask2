@@ -62,8 +62,8 @@
   </root>
   <root nodeRef="r:1c13bd36-11a6-4091-8ad3-2e963e4746de(RoboRoute.generator.template.main@generator)/2397178398406256287">
     <file name="QueriesGenerated.java">
-      <node id="2397178398406550395" at="71,112,72,335" concept="0" />
-      <scope id="2397178398406548034" at="71,112,72,335" />
+      <node id="2397178398406550395" at="71,112,72,188" concept="0" />
+      <scope id="2397178398406548034" at="71,112,72,188" />
     </file>
   </root>
   <root nodeRef="r:1c13bd36-11a6-4091-8ad3-2e963e4746de(RoboRoute.generator.template.main@generator)/2397178398406510450">

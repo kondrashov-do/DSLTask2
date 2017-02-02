@@ -7,8 +7,14 @@
     <file name="CanvasWithVariables_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoboRoute.behavior.CanvasWithVariables_BehaviorDescriptor" />
     </file>
+    <file name="ForwardWithExpression_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoboRoute.behavior.ForwardWithExpression_BehaviorDescriptor" />
+    </file>
     <file name="ForwardWithVariables_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoboRoute.behavior.ForwardWithVariables_BehaviorDescriptor" />
+    </file>
+    <file name="RefToVar_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ExtendedRoboRoute.behavior.RefToVar_BehaviorDescriptor" />
     </file>
     <file name="Variable_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ExtendedRoboRoute.behavior.Variable_BehaviorDescriptor" />
