@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="RoboRoute.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Boundary_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.Boundary_BehaviorDescriptor" />
+    </file>
+    <file name="Canvas_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.Canvas_BehaviorDescriptor" />
+    </file>
+    <file name="Command_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.Command_BehaviorDescriptor" />
+    </file>
+    <file name="Forward_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.Forward_BehaviorDescriptor" />
+    </file>
+    <file name="Shape_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.Shape_BehaviorDescriptor" />
+    </file>
+    <file name="StartPoint_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.StartPoint_BehaviorDescriptor" />
+    </file>
+    <file name="Turn_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="RoboRoute.behavior.Turn_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

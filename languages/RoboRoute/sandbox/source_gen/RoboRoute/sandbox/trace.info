@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:18a7b7a0-68b7-42af-a7f9-aba496868254(RoboRoute.sandbox)/2397178398403351028">
+    <file name="MyRoboRoute.java">
+      <node id="2397178398403351028" at="14,54,15,37" concept="0" />
+      <node id="2397178398403351028" at="15,37,16,50" concept="4" />
+      <node id="2397178398403351028" at="16,50,17,24" concept="4" />
+      <node id="2397178398403351028" at="17,24,18,0" concept="7" />
+      <node id="2397178398403861113" at="18,0,19,42" concept="0" />
+      <node id="2397178398403877479" at="19,42,20,38" concept="0" />
+      <node id="2397178398406186388" at="20,38,21,37" concept="0" />
+      <node id="2397178398405510050" at="21,37,22,83" concept="0" />
+      <node id="2397178398406241359" at="22,83,23,37" concept="0" />
+      <node id="2397178398405760178" at="23,37,24,37" concept="0" />
+      <node id="2397178398405793964" at="24,37,25,83" concept="0" />
+      <node id="2397178398405893588" at="25,83,26,37" concept="0" />
+      <node id="2397178398405893630" at="26,37,27,82" concept="0" />
+      <node id="2397178398405893683" at="27,82,28,37" concept="0" />
+      <node id="2397178398405893733" at="28,37,29,82" concept="0" />
+      <node id="2397178398405893808" at="29,82,30,37" concept="0" />
+      <node id="2397178398405893859" at="30,37,31,83" concept="0" />
+      <node id="2397178398403351028" at="35,97,36,33" concept="4" />
+      <node id="2397178398403351028" at="36,33,37,18" concept="6" />
+      <node id="2397178398403351028" at="38,29,39,42" concept="0" />
+      <node id="2397178398403351028" at="39,42,40,31" concept="0" />
+      <node id="2397178398403351028" at="41,5,42,17" concept="6" />
+      <node id="2397178398403351028" at="43,29,44,42" concept="0" />
+      <node id="2397178398403351028" at="44,42,45,31" concept="0" />
+      <node id="2397178398403351028" at="46,5,47,15" concept="6" />
+      <node id="2397178398403351028" at="48,29,49,31" concept="0" />
+      <node id="2397178398403351028" at="49,31,50,42" concept="0" />
+      <node id="2397178398403351028" at="51,5,52,17" concept="6" />
+      <node id="2397178398403351028" at="53,29,54,31" concept="0" />
+      <node id="2397178398403351028" at="54,31,55,42" concept="0" />
+      <node id="2397178398403351028" at="56,5,57,12" concept="6" />
+      <node id="2397178398403351028" at="57,12,58,72" concept="0" />
+      <node id="2397178398403351028" at="58,72,59,20" concept="5" />
+      <node id="2397178398403351028" at="62,40,63,16" concept="5" />
+      <node id="2397178398403351028" at="66,42,67,43" concept="4" />
+      <node id="2397178398403351028" at="67,43,68,24" concept="0" />
+      <node id="2397178398403351028" at="74,28,75,33" concept="0" />
+      <node id="2397178398403351028" at="75,33,76,56" concept="0" />
+      <node id="2397178398403351028" at="76,56,77,20" concept="0" />
+      <node id="2397178398403351028" at="77,20,78,54" concept="0" />
+      <node id="2397178398403351028" at="78,54,79,16" concept="0" />
+      <node id="2397178398403351028" at="79,16,80,26" concept="0" />
+      <node id="2397178398403351028" at="71,0,73,0" concept="3" trace="executeCommands#()V" />
+      <node id="2397178398403351028" at="62,0,65,0" concept="3" trace="changeDirection#(I)I" />
+      <node id="2397178398403351028" at="37,18,41,5" concept="2" />
+      <node id="2397178398403351028" at="42,17,46,5" concept="2" />
+      <node id="2397178398403351028" at="47,15,51,5" concept="2" />
+      <node id="2397178398403351028" at="52,17,56,5" concept="2" />
+      <node id="2397178398403351028" at="66,0,70,0" concept="8" trace="main#([Ljava/lang/String;)V" />
+      <node id="2397178398403351028" at="74,0,82,0" concept="3" trace="initialize#()V" />
+      <node id="2397178398403351028" at="13,0,33,0" concept="3" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="2397178398403351028" at="12,0,34,0" concept="1" trace="panel" />
+      <node id="2397178398403351028" at="35,0,61,0" concept="3" trace="moveForward#(Ljava/awt/Point;IILjava/awt/Graphics;)Ljava/awt/Point;" />
+      <scope id="2397178398403351028" at="71,33,71,33" />
+      <scope id="2397178398403351028" at="62,40,63,16" />
+      <scope id="2397178398403351028" at="38,29,40,31" />
+      <scope id="2397178398403351028" at="43,29,45,31" />
+      <scope id="2397178398403351028" at="48,29,50,42" />
+      <scope id="2397178398403351028" at="53,29,55,42" />
+      <scope id="2397178398403351028" at="66,42,68,24">
+        <var name="canvas" id="2397178398403351028" />
+      </scope>
+      <scope id="2397178398403351028" at="71,0,73,0" />
+      <scope id="2397178398403351028" at="62,0,65,0">
+        <var name="turn" id="2397178398403351028" />
+      </scope>
+      <scope id="2397178398403351028" at="66,0,70,0">
+        <var name="args" id="2397178398403351028" />
+      </scope>
+      <scope id="2397178398403351028" at="74,28,80,26" />
+      <scope id="2397178398403351028" at="74,0,82,0" />
+      <scope id="2397178398403351028" at="14,54,31,83">
+        <var name="currentStartPoint" id="2397178398403351028" />
+        <var name="direction" id="2397178398403351028" />
+      </scope>
+      <scope id="2397178398403351028" at="13,0,33,0">
+        <var name="graphics" id="2397178398403351028" />
+      </scope>
+      <scope id="2397178398403351028" at="35,97,59,20">
+        <var name="resPoint" id="2397178398403351028" />
+      </scope>
+      <scope id="2397178398403351028" at="35,0,61,0">
+        <var name="currDirection" id="2397178398403351028" />
+        <var name="currPoint" id="2397178398403351028" />
+        <var name="distance" id="2397178398403351028" />
+        <var name="graphics" id="2397178398403351028" />
+      </scope>
+      <unit id="2397178398403351028" at="12,29,33,3" name="RoboRoute.sandbox.MyRoboRoute$1" />
+      <unit id="2397178398403351028" at="11,0,83,0" name="RoboRoute.sandbox.MyRoboRoute" />
+    </file>
+  </root>
+</debug-info>
+
