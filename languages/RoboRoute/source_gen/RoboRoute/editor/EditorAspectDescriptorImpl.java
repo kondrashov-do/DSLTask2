@@ -61,6 +61,13 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       switch (switchIndex) {
         case 0:
           if (true) {
+            if ("RoboRoute.editor.CanvasRoot".equals(editorComponentId)) {
+              return Collections.<ConceptEditorComponent>singletonList(new CanvasRoot());
+            }
+          }
+          break;
+        case 1:
+          if (true) {
             if ("RoboRoute.editor.ShapeComp".equals(editorComponentId)) {
               return Collections.<ConceptEditorComponent>singletonList(new ShapeComp());
             }
@@ -82,5 +89,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return res;
   }
   private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, "RoboRoute.structure.Canvas"), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74316899L, "RoboRoute.structure.Forward"), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116db5L, "RoboRoute.structure.StartPoint"), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74255d46L, "RoboRoute.structure.Turn"));
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0c = buildConceptIndices(MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116da4L, "RoboRoute.structure.Shape"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0c = buildConceptIndices(MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, "RoboRoute.structure.Canvas"), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116da4L, "RoboRoute.structure.Shape"));
 }

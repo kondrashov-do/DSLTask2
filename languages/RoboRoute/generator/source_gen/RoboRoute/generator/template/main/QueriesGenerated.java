@@ -5,44 +5,44 @@ package RoboRoute.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 @Generated
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_2397178398408017042(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dd8L, "upperLeftX"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dd8L, "upperLeftX"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398408038349(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116ddaL, "upperLeftY"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116ddaL, "upperLeftY"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398408047087(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dddL, "sizeX"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dddL, "sizeX"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398408057184(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116ddaL, "upperLeftY"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116de1L, "sizeY"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398404160330(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116db5L, "RoboRoute.structure.StartPoint"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116da4L, 0x21447d0d74188799L, "x")) + 2;
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d7470602eL, "startPoint")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116da4L, 0x21447d0d74188799L, "x")) + 2;
   }
   public static Object propertyMacro_GetPropertyValue_2397178398404210562(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116db5L, "RoboRoute.structure.StartPoint"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116da4L, 0x21447d0d741887a2L, "y")) + 2;
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d7470602eL, "startPoint")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116da4L, 0x21447d0d741887a2L, "y")) + 2;
   }
-  public static Object propertyMacro_GetPropertyValue_2397178398408180991(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dd8L, "upperLeftX"));
+  public static Object propertyMacro_GetPropertyValue_2397178398410190460(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dd8L, "upperLeftX"));
   }
-  public static Object propertyMacro_GetPropertyValue_2397178398408224106(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116ddaL, "upperLeftY"));
+  public static Object propertyMacro_GetPropertyValue_2397178398410200717(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dddL, "sizeX"));
   }
-  public static Object propertyMacro_GetPropertyValue_2397178398408271656(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116dddL, "sizeX"));
+  public static Object propertyMacro_GetPropertyValue_2397178398410213437(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116ddaL, "upperLeftY"));
   }
-  public static Object propertyMacro_GetPropertyValue_2397178398408310632(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes")), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, "RoboRoute.structure.Boundary"))).first(), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116de1L, "sizeY"));
+  public static Object propertyMacro_GetPropertyValue_2397178398410222427(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116dceL, 0x21447d0d74116de1L, "sizeY"));
   }
   public static Object propertyMacro_GetPropertyValue_2397178398403690317(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
@@ -74,8 +74,11 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_2397178398406534398(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger_def(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74255d46L, "RoboRoute.structure.Turn")), MetaAdapterFactory.getProperty(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74255d46L, 0x21447d0d74316958L, "direction"), "0");
   }
-  public static Iterable<SNode> sourceNodesQuery_2397178398405841797(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74116dfcL, "shapes"));
+  public static SNode sourceNodeQuery_2397178398409827423(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d74705ffdL, "boundary"));
+  }
+  public static SNode sourceNodeQuery_2397178398409827898(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d7470602eL, "startPoint"));
   }
   public static Iterable<SNode> sourceNodesQuery_2397178398404464371(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d742df942L, "commands"));

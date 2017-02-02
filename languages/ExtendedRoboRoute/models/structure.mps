@@ -6,6 +6,7 @@
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="huub" ref="r:2f29a75b-1b38-4ade-916a-9a76595e5890(RoboRoute.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -67,6 +68,13 @@
       <property role="20kJfa" value="length" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="254vgPOhWQJ" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="254vgPOshNu" role="1TKVEi">
+      <property role="IQ2ns" value="2397178398409563358" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="binOper" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fJuHJVf" resolve="BinaryOperation" />
     </node>
   </node>
   <node concept="1TIwiD" id="254vgPOhWQJ">

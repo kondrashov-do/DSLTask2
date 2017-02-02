@@ -8,8 +8,9 @@
   <imports>
     <import index="huub" ref="r:2f29a75b-1b38-4ade-916a-9a76595e5890(RoboRoute.structure)" />
     <import index="h5du" ref="r:49156d61-fa18-43e6-b5b6-cb7e06493b7b(ExtendedRoboRoute.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="ml6q" ref="r:e052dd62-97c9-4207-af0d-8e7dbd511dda(RoboRoute.editor)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -57,21 +58,8 @@
   <node concept="24kQdi" id="254vgPOhWXa">
     <ref role="1XX52x" to="h5du:254vgPOfLTT" resolve="CanvasWithVariables" />
     <node concept="3EZMnI" id="254vgPOhWZJ" role="2wV5jI">
-      <node concept="3EZMnI" id="254vgPOfzC1" role="3EZMnx">
-        <node concept="VPM3Z" id="254vgPOfzC3" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="254vgPOfzC5" role="3EZMnx">
-          <property role="3F0ifm" value="Create" />
-        </node>
-        <node concept="3F0A7n" id="254vgPOfzCU" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="2iRfu4" id="254vgPOfzC6" role="2iSdaV" />
-      </node>
-      <node concept="3F2HdR" id="254vgPOfzDZ" role="3EZMnx">
-        <ref role="1NtTu8" to="huub:254vgPO4mRW" resolve="shapes" />
-        <node concept="2iRkQZ" id="254vgPOfzE1" role="2czzBx" />
+      <node concept="PMmxH" id="254vgPOtk4Z" role="3EZMnx">
+        <ref role="PMmxG" to="ml6q:254vgPOspSR" resolve="CanvasRoot" />
       </node>
       <node concept="3F0ifn" id="254vgPOrs_A" role="3EZMnx">
         <property role="3F0ifm" value="variable declaration:" />
@@ -82,13 +70,6 @@
         <node concept="VPM3Z" id="254vgPOhX3r" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
-      </node>
-      <node concept="3F0ifn" id="254vgPOrsAf" role="3EZMnx">
-        <property role="3F0ifm" value="commands declaration:" />
-      </node>
-      <node concept="3F2HdR" id="254vgPOfzGj" role="3EZMnx">
-        <ref role="1NtTu8" to="huub:254vgPObv_2" resolve="commands" />
-        <node concept="2iRkQZ" id="254vgPOfzGm" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="254vgPOhWZM" role="2iSdaV" />
     </node>

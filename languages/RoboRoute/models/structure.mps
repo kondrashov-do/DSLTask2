@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
+    <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -113,12 +114,19 @@
     <property role="TrG5h" value="Canvas" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="254vgPO4mRW" role="1TKVEi">
-      <property role="IQ2ns" value="2397178398403292668" />
+    <node concept="1TJgyj" id="254vgPOs5ZX" role="1TKVEi">
+      <property role="IQ2ns" value="2397178398409515005" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="shapes" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="254vgPO4mQ$" resolve="Shape" />
+      <property role="20kJfa" value="boundary" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="254vgPO4mRe" resolve="Boundary" />
+    </node>
+    <node concept="1TJgyj" id="254vgPOs60I" role="1TKVEi">
+      <property role="IQ2ns" value="2397178398409515054" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="startPoint" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="254vgPO4mQP" resolve="StartPoint" />
     </node>
     <node concept="1TJgyj" id="254vgPObv_2" role="1TKVEi">
       <property role="IQ2ns" value="2397178398405163330" />

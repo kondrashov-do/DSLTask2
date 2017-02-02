@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="huub" ref="r:2f29a75b-1b38-4ade-916a-9a76595e5890(RoboRoute.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -44,6 +44,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -101,28 +102,8 @@
     <ref role="1XX52x" to="huub:254vgPO4mRT" resolve="Canvas" />
     <node concept="3EZMnI" id="254vgPOfzv2" role="2wV5jI">
       <node concept="2iRkQZ" id="254vgPOfzv3" role="2iSdaV" />
-      <node concept="3EZMnI" id="254vgPOfzC1" role="3EZMnx">
-        <node concept="VPM3Z" id="254vgPOfzC3" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="254vgPOfzC5" role="3EZMnx">
-          <property role="3F0ifm" value="Create" />
-        </node>
-        <node concept="3F0A7n" id="254vgPOfzCU" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="2iRfu4" id="254vgPOfzC6" role="2iSdaV" />
-      </node>
-      <node concept="3F2HdR" id="254vgPOfzDZ" role="3EZMnx">
-        <ref role="1NtTu8" to="huub:254vgPO4mRW" resolve="shapes" />
-        <node concept="2iRkQZ" id="254vgPOfzE1" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="254vgPOrsCF" role="3EZMnx">
-        <property role="3F0ifm" value="command declaration:" />
-      </node>
-      <node concept="3F2HdR" id="254vgPOfzGj" role="3EZMnx">
-        <ref role="1NtTu8" to="huub:254vgPObv_2" resolve="commands" />
-        <node concept="2iRkQZ" id="254vgPOfzGm" role="2czzBx" />
+      <node concept="PMmxH" id="254vgPOsq7w" role="3EZMnx">
+        <ref role="PMmxG" node="254vgPOspSR" resolve="CanvasRoot" />
       </node>
     </node>
   </node>
@@ -173,6 +154,38 @@
         <property role="3F0ifm" value="pixels" />
       </node>
       <node concept="l2Vlx" id="254vgPOcmGh" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="254vgPOspSR">
+    <property role="TrG5h" value="CanvasRoot" />
+    <ref role="1XX52x" to="huub:254vgPO4mRT" resolve="Canvas" />
+    <node concept="3EZMnI" id="254vgPOsq1C" role="2wV5jI">
+      <node concept="3EZMnI" id="254vgPOsq1T" role="3EZMnx">
+        <node concept="VPM3Z" id="254vgPOsq1U" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="254vgPOsq1V" role="3EZMnx">
+          <property role="3F0ifm" value="Create" />
+        </node>
+        <node concept="3F0A7n" id="254vgPOsq1W" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="254vgPOsq1X" role="2iSdaV" />
+      </node>
+      <node concept="3F1sOY" id="254vgPOsq1Y" role="3EZMnx">
+        <ref role="1NtTu8" to="huub:254vgPOs5ZX" resolve="boundary" />
+      </node>
+      <node concept="3F1sOY" id="254vgPOsq1Z" role="3EZMnx">
+        <ref role="1NtTu8" to="huub:254vgPOs60I" resolve="startPoint" />
+      </node>
+      <node concept="3F0ifn" id="254vgPOsq22" role="3EZMnx">
+        <property role="3F0ifm" value="command declaration:" />
+      </node>
+      <node concept="3F2HdR" id="254vgPOsq23" role="3EZMnx">
+        <ref role="1NtTu8" to="huub:254vgPObv_2" resolve="commands" />
+        <node concept="2iRkQZ" id="254vgPOsq24" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="254vgPOsq1F" role="2iSdaV" />
     </node>
   </node>
 </model>

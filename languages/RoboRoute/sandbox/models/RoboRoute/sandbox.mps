@@ -19,7 +19,8 @@
         <property id="2397178398403292641" name="sizeY" index="1llh3G" />
       </concept>
       <concept id="2397178398403292665" name="RoboRoute.structure.Canvas" flags="ng" index="1llh3O">
-        <child id="2397178398403292668" name="shapes" index="1llh3L" />
+        <child id="2397178398409515054" name="startPoint" index="1ld1Oz" />
+        <child id="2397178398409515005" name="boundary" index="1ld2bK" />
         <child id="2397178398405163330" name="commands" index="1lqohf" />
       </concept>
       <concept id="2397178398404599110" name="RoboRoute.structure.Turn" flags="ng" index="1loi1b" />
@@ -33,20 +34,20 @@
       </concept>
     </language>
   </registry>
-  <node concept="1llh3O" id="254vgPOrVqg">
+  <node concept="1llh3O" id="254vgPOuWWJ">
     <property role="TrG5h" value="RoboRoute" />
-    <node concept="1llh33" id="254vgPOrVr7" role="1llh3L">
-      <property role="1llh3l" value="0" />
-      <property role="1llh3n" value="0" />
-      <property role="1llh3g" value="400" />
-      <property role="1llh3G" value="400" />
+    <node concept="1loi1b" id="254vgPOv5Ts" role="1lqohf" />
+    <node concept="1llh33" id="254vgPOuWWK" role="1ld2bK">
+      <property role="1llh3l" value="10" />
+      <property role="1llh3n" value="10" />
+      <property role="1llh3g" value="500" />
+      <property role="1llh3G" value="500" />
     </node>
-    <node concept="1llh2S" id="254vgPOrVrs" role="1llh3L">
-      <property role="1lnfEk" value="10" />
-      <property role="1lnfEJ" value="10" />
+    <node concept="1llh2S" id="254vgPOuWWL" role="1ld1Oz">
+      <property role="1lnfEk" value="15" />
+      <property role="1lnfEJ" value="15" />
     </node>
-    <node concept="1loi1b" id="254vgPOrVr$" role="1lqohf" />
-    <node concept="1lthmk" id="254vgPOrVrG" role="1lqohf">
+    <node concept="1lthmk" id="254vgPOv5Gi" role="1lqohf">
       <property role="1lthgr" value="50" />
     </node>
   </node>
