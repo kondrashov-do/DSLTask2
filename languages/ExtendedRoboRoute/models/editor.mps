@@ -73,12 +73,18 @@
         <ref role="1NtTu8" to="huub:254vgPO4mRW" resolve="shapes" />
         <node concept="2iRkQZ" id="254vgPOfzE1" role="2czzBx" />
       </node>
+      <node concept="3F0ifn" id="254vgPOrs_A" role="3EZMnx">
+        <property role="3F0ifm" value="variable declaration:" />
+      </node>
       <node concept="3F2HdR" id="254vgPOhX3n" role="3EZMnx">
         <ref role="1NtTu8" to="h5du:254vgPOhWVo" resolve="variables" />
         <node concept="2iRkQZ" id="254vgPOhX3q" role="2czzBx" />
         <node concept="VPM3Z" id="254vgPOhX3r" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
+      </node>
+      <node concept="3F0ifn" id="254vgPOrsAf" role="3EZMnx">
+        <property role="3F0ifm" value="commands declaration:" />
       </node>
       <node concept="3F2HdR" id="254vgPOfzGj" role="3EZMnx">
         <ref role="1NtTu8" to="huub:254vgPObv_2" resolve="commands" />

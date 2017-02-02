@@ -37,8 +37,10 @@ public class CanvasWithVariables_Editor extends DefaultNodeEditor {
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_2pxfjd_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_2pxfjd_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_2pxfjd_c0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2pxfjd_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_2pxfjd_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2pxfjd_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_2pxfjd_f0(editorContext, node));
     return editorCell;
   }
   private EditorCell createCollection_2pxfjd_a0(EditorContext editorContext, SNode node) {
@@ -126,8 +128,14 @@ public class CanvasWithVariables_Editor extends DefaultNodeEditor {
       }
     }
   }
-  private EditorCell createRefNodeList_2pxfjd_c0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new CanvasWithVariables_Editor.variablesListHandler_2pxfjd_c0(node, "variables", editorContext);
+  private EditorCell createConstant_2pxfjd_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "variable declaration:");
+    editorCell.setCellId("Constant_2pxfjd_c0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createRefNodeList_2pxfjd_d0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new CanvasWithVariables_Editor.variablesListHandler_2pxfjd_d0(node, "variables", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_variables");
     Style style = new StyleImpl();
@@ -136,8 +144,8 @@ public class CanvasWithVariables_Editor extends DefaultNodeEditor {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class variablesListHandler_2pxfjd_c0 extends RefNodeListHandler {
-    public variablesListHandler_2pxfjd_c0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class variablesListHandler_2pxfjd_d0 extends RefNodeListHandler {
+    public variablesListHandler_2pxfjd_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
@@ -160,7 +168,7 @@ public class CanvasWithVariables_Editor extends DefaultNodeEditor {
     }
     public EditorCell createEmptyCell(EditorContext editorContext) {
       editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(variablesListHandler_2pxfjd_c0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d743f1e79L, 0x21447d0d7447ced8L, "variables")));
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(variablesListHandler_2pxfjd_d0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d743f1e79L, 0x21447d0d7447ced8L, "variables")));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell(editorContext);
@@ -183,15 +191,21 @@ public class CanvasWithVariables_Editor extends DefaultNodeEditor {
       }
     }
   }
-  private EditorCell createRefNodeList_2pxfjd_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new CanvasWithVariables_Editor.commandsListHandler_2pxfjd_d0(node, "commands", editorContext);
+  private EditorCell createConstant_2pxfjd_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "commands declaration:");
+    editorCell.setCellId("Constant_2pxfjd_e0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createRefNodeList_2pxfjd_f0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new CanvasWithVariables_Editor.commandsListHandler_2pxfjd_f0(node, "commands", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_commands");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class commandsListHandler_2pxfjd_d0 extends RefNodeListHandler {
-    public commandsListHandler_2pxfjd_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class commandsListHandler_2pxfjd_f0 extends RefNodeListHandler {
+    public commandsListHandler_2pxfjd_f0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
@@ -214,7 +228,7 @@ public class CanvasWithVariables_Editor extends DefaultNodeEditor {
     }
     public EditorCell createEmptyCell(EditorContext editorContext) {
       editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(commandsListHandler_2pxfjd_d0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d742df942L, "commands")));
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(commandsListHandler_2pxfjd_f0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x53cf39915e0c480eL, 0x86915523d5520502L, 0x21447d0d74116df9L, 0x21447d0d742df942L, "commands")));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell(editorContext);

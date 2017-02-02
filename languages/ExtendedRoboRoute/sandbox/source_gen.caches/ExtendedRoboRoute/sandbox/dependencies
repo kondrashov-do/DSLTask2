@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="ExtendedRoboRoute.sandbox.NewRoute" file="NewRoute.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Graphics" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.swing.JPanel" />
-    <classNode extendsClassName="javax.swing.JFrame" />
-  </dependency>
-</dependenciesRoot>
+<dependenciesRoot />
 

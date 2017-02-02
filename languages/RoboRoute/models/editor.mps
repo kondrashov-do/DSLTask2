@@ -117,7 +117,9 @@
         <ref role="1NtTu8" to="huub:254vgPO4mRW" resolve="shapes" />
         <node concept="2iRkQZ" id="254vgPOfzE1" role="2czzBx" />
       </node>
-      <node concept="3F0ifn" id="254vgPOfzE_" role="3EZMnx" />
+      <node concept="3F0ifn" id="254vgPOrsCF" role="3EZMnx">
+        <property role="3F0ifm" value="command declaration:" />
+      </node>
       <node concept="3F2HdR" id="254vgPOfzGj" role="3EZMnx">
         <ref role="1NtTu8" to="huub:254vgPObv_2" resolve="commands" />
         <node concept="2iRkQZ" id="254vgPOfzGm" role="2czzBx" />

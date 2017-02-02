@@ -127,7 +127,7 @@ public class Canvas_Editor extends DefaultNodeEditor {
     }
   }
   private EditorCell createConstant_v161ay_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "command declaration:");
     editorCell.setCellId("Constant_v161ay_c0");
     editorCell.setDefaultText("");
     return editorCell;

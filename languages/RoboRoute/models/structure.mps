@@ -69,16 +69,6 @@
       <property role="TrG5h" value="y" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="254vgPOc5nt" role="1TKVEl">
-      <property role="IQ2nx" value="2397178398405318109" />
-      <property role="TrG5h" value="distance" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="254vgPOc5o7" role="1TKVEl">
-      <property role="IQ2nx" value="2397178398405318151" />
-      <property role="TrG5h" value="turn" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
   </node>
   <node concept="1TIwiD" id="254vgPO4mQP">
     <property role="EcuMT" value="2397178398403292597" />
@@ -95,6 +85,7 @@
     <property role="EcuMT" value="2397178398403292622" />
     <property role="TrG5h" value="Boundary" />
     <property role="34LRSv" value="boundary" />
+    <property role="R5$K2" value="true" />
     <ref role="1TJDcQ" node="254vgPO4mQ$" resolve="Shape" />
     <node concept="1TJgyi" id="254vgPO4mRo" role="1TKVEl">
       <property role="IQ2nx" value="2397178398403292632" />
