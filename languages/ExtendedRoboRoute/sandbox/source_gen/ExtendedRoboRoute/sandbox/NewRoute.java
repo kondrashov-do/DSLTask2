@@ -32,12 +32,7 @@ public class NewRoute extends JFrame {
 
       graphics.drawRect(10, 10, 500, 500);
       graphics.drawOval(15, 15, 4, 4);
-      currentStartPoint = moveForward(currentStartPoint, direction, 500, graphics);
-      direction = changeDirection(3);
-      currentStartPoint = moveForward(currentStartPoint, direction, 50, graphics);
-      direction = changeDirection(0);
-      currentStartPoint = moveForward(currentStartPoint, direction, 150, graphics);
-      currentStartPoint = moveForward(currentStartPoint, direction, 50, graphics);
+      currentStartPoint = moveForward(currentStartPoint, direction, 50 + 50, graphics);
     }
   };
 

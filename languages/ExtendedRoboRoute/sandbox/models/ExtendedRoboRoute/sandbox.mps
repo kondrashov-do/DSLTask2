@@ -17,10 +17,13 @@
         <reference id="2397178398407101226" name="length" index="1l3ZoB" />
       </concept>
       <concept id="2397178398406856111" name="ExtendedRoboRoute.structure.Variable" flags="ng" index="1l0V2y">
-        <property id="2397178398406856240" name="value" index="1l0VcX" />
+        <property id="2397178398406856240" name="variableValue" index="1l0VcX" />
       </concept>
       <concept id="2397178398406286969" name="ExtendedRoboRoute.structure.CanvasWithVariables" flags="ng" index="1luQdO">
         <child id="2397178398406856408" name="variables" index="1l0Vfl" />
+      </concept>
+      <concept id="2397178398410867030" name="ExtendedRoboRoute.structure.RefToVar" flags="ng" index="1lKnLr">
+        <reference id="2397178398410867190" name="variableReference" index="1lKnNV" />
       </concept>
       <concept id="2397178398410721579" name="ExtendedRoboRoute.structure.ForwardWithExpression" flags="ng" index="1lLFgA">
         <child id="2397178398410721719" name="expression" index="1lLFiU" />
@@ -43,12 +46,6 @@
         <child id="2397178398409515005" name="boundary" index="1ld2bK" />
         <child id="2397178398405163330" name="commands" index="1lqohf" />
       </concept>
-      <concept id="2397178398404599110" name="RoboRoute.structure.Turn" flags="ng" index="1loi1b">
-        <property id="2397178398405388632" name="direction" index="1lthhl" />
-      </concept>
-      <concept id="2397178398405388441" name="RoboRoute.structure.Forward" flags="ng" index="1lthmk">
-        <property id="2397178398405388566" name="length" index="1lthgr" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -68,25 +65,18 @@
       <property role="1lnfEk" value="15" />
       <property role="1lnfEJ" value="15" />
     </node>
-    <node concept="1lLFgA" id="254vgPOxd3D" role="1lqohf">
-      <node concept="3cmrfG" id="254vgPOxg2n" role="1lLFiU">
-        <property role="3cmrfH" value="500" />
-      </node>
-    </node>
-    <node concept="1loi1b" id="254vgPOxelU" role="1lqohf">
-      <property role="1lthhl" value="3" />
-    </node>
-    <node concept="1lLFgA" id="254vgPOxemQ" role="1lqohf">
-      <node concept="3cmrfG" id="254vgPOxenm" role="1lLFiU">
+    <node concept="1lLFgA" id="254vgPOxKa$" role="1lqohf">
+      <node concept="3cmrfG" id="254vgPOxTLx" role="1lLFiU">
         <property role="3cmrfH" value="50" />
       </node>
     </node>
-    <node concept="1loi1b" id="254vgPOxfaw" role="1lqohf" />
-    <node concept="1lthmk" id="254vgPOxfbx" role="1lqohf">
-      <property role="1lthgr" value="150" />
-    </node>
-    <node concept="1l0MVl" id="254vgPOxmVS" role="1lqohf">
+    <node concept="1l0MVl" id="254vgPOxTI8" role="1lqohf">
       <ref role="1l3ZoB" node="254vgPOxmWv" resolve="a" />
+    </node>
+    <node concept="1lLFgA" id="254vgPOxTJ4" role="1lqohf">
+      <node concept="1lKnLr" id="254vgPOxTJm" role="1lLFiU">
+        <ref role="1lKnNV" node="254vgPOxmWv" resolve="a" />
+      </node>
     </node>
     <node concept="1l0V2y" id="254vgPOxmWv" role="1l0Vfl">
       <property role="TrG5h" value="a" />

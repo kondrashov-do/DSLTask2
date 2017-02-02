@@ -80,7 +80,7 @@
     </node>
     <node concept="1TJgyi" id="254vgPOhWSK" role="1TKVEl">
       <property role="IQ2nx" value="2397178398406856240" />
-      <property role="TrG5h" value="value" />
+      <property role="TrG5h" value="variableValue" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
@@ -104,7 +104,7 @@
     <node concept="1TJgyj" id="254vgPOxg7Q" role="1TKVEi">
       <property role="IQ2ns" value="2397178398410867190" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="var" />
+      <property role="20kJfa" value="variableReference" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="254vgPOhWQJ" resolve="Variable" />
     </node>

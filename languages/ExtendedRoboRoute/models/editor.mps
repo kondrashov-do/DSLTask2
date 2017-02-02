@@ -107,7 +107,7 @@
         <property role="3F0ifm" value="value:" />
       </node>
       <node concept="3F0A7n" id="254vgPOi1a9" role="3EZMnx">
-        <ref role="1NtTu8" to="h5du:254vgPOhWSK" resolve="value" />
+        <ref role="1NtTu8" to="h5du:254vgPOhWSK" resolve="variableValue" />
       </node>
     </node>
   </node>
@@ -121,6 +121,18 @@
         <ref role="1NtTu8" to="h5du:254vgPOwGAR" resolve="expression" />
       </node>
       <node concept="2iRfu4" id="254vgPOwGMm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="254vgPOxxVf">
+    <ref role="1XX52x" to="h5du:254vgPOxg5m" resolve="RefToVar" />
+    <node concept="1iCGBv" id="254vgPOxxWl" role="2wV5jI">
+      <ref role="1NtTu8" to="h5du:254vgPOxg7Q" resolve="variableReference" />
+      <node concept="1sVBvm" id="254vgPOxxWn" role="1sWHZn">
+        <node concept="3F0A7n" id="254vgPOxxWQ" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

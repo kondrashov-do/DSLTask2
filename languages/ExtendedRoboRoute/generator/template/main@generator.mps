@@ -13,6 +13,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -147,6 +150,12 @@
         <ref role="v9R2y" node="254vgPOwGPt" resolve="reduce_ForwardWithExpression" />
       </node>
     </node>
+    <node concept="3aamgX" id="254vgPOxz$Z" role="3acgRq">
+      <ref role="30HIoZ" to="h5du:254vgPOxg5m" resolve="RefToVar" />
+      <node concept="j$656" id="254vgPOxz_M" role="1lVwrX">
+        <ref role="v9R2y" node="254vgPOxz_K" resolve="reduce_RefToVar" />
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="254vgPOhPmi">
     <property role="TrG5h" value="reduce_ForwardWithVariables" />
@@ -190,7 +199,7 @@
                         <node concept="3clFbF" id="254vgPOgMdV" role="3cqZAp">
                           <node concept="2OqwBi" id="254vgPOinvx" role="3clFbG">
                             <node concept="3TrcHB" id="254vgPOjC7a" role="2OqNvi">
-                              <ref role="3TsBF5" to="h5du:254vgPOhWSK" resolve="value" />
+                              <ref role="3TsBF5" to="h5du:254vgPOhWSK" resolve="variableValue" />
                             </node>
                             <node concept="2OqwBi" id="254vgPOjAZw" role="2Oq$k0">
                               <node concept="30H73N" id="254vgPOjAJg" role="2Oq$k0" />
@@ -329,6 +338,45 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="254vgPOwHVd" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="254vgPOxz_K">
+    <property role="TrG5h" value="reduce_RefToVar" />
+    <ref role="3gUMe" to="h5du:254vgPOxg5m" resolve="RefToVar" />
+    <node concept="9aQIb" id="254vgPOxzBt" role="13RCb5">
+      <node concept="3clFbS" id="254vgPOxzOf" role="9aQI4">
+        <node concept="3cpWs8" id="254vgPOxG3O" role="3cqZAp">
+          <node concept="3cpWsn" id="254vgPOxG3R" role="3cpWs9">
+            <property role="TrG5h" value="a" />
+            <node concept="10Oyi0" id="254vgPOxG3M" role="1tU5fm" />
+            <node concept="3cmrfG" id="254vgPOxzOc" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+              <node concept="raruj" id="254vgPOxzWY" role="lGtFl" />
+              <node concept="17Uvod" id="254vgPOxzWZ" role="lGtFl">
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                <property role="2qtEX9" value="value" />
+                <node concept="3zFVjK" id="254vgPOxzX0" role="3zH0cK">
+                  <node concept="3clFbS" id="254vgPOxzX1" role="2VODD2">
+                    <node concept="3clFbF" id="254vgPOx$vj" role="3cqZAp">
+                      <node concept="2OqwBi" id="254vgPOx_yP" role="3clFbG">
+                        <node concept="2OqwBi" id="254vgPOx$Ld" role="2Oq$k0">
+                          <node concept="30H73N" id="254vgPOx$vi" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="254vgPOx_9S" role="2OqNvi">
+                            <ref role="3Tt5mk" to="h5du:254vgPOxg7Q" resolve="variableReference" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="254vgPOx_YZ" role="2OqNvi">
+                          <ref role="3TsBF5" to="h5du:254vgPOhWSK" resolve="variableValue" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -55,11 +55,11 @@ public class Variable_Editor extends DefaultNodeEditor {
   }
   private EditorCell createProperty_pfjbyg_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("value");
-    provider.setNoTargetText("<no value>");
+    provider.setRole("variableValue");
+    provider.setNoTargetText("<no variableValue>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_value");
+    editorCell.setCellId("property_variableValue");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     if (attributeConcept != null) {

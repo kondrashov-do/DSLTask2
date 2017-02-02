@@ -37,6 +37,11 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
           break;
         case 3:
           if (true) {
+            return Collections.<ConceptEditor>singletonList(new RefToVar_Editor());
+          }
+          break;
+        case 4:
+          if (true) {
             return Collections.<ConceptEditor>singletonList(new Variable_Editor());
           }
           break;
@@ -56,5 +61,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d743f1e79L, "ExtendedRoboRoute.structure.CanvasWithVariables"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d7482c92bL, "ExtendedRoboRoute.structure.ForwardWithExpression"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d744753d8L, "ExtendedRoboRoute.structure.ForwardWithVariables"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d7447cdafL, "ExtendedRoboRoute.structure.Variable"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d743f1e79L, "ExtendedRoboRoute.structure.CanvasWithVariables"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d7482c92bL, "ExtendedRoboRoute.structure.ForwardWithExpression"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d744753d8L, "ExtendedRoboRoute.structure.ForwardWithVariables"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d74850156L, "ExtendedRoboRoute.structure.RefToVar"), MetaAdapterFactory.getConcept(0x5932703a14ff46bdL, 0xa9cfc081255d1355L, 0x21447d0d7447cdafL, "ExtendedRoboRoute.structure.Variable"));
 }
